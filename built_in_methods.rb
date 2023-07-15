@@ -9,17 +9,17 @@
 "Hello World".downcase
 
 # The include? method is called on the string object "Hello World".
-# The include? method is asking the console if this object includes the argument passed in.
+# One argument passed; the include? method is asking the console if this object includes "Hello".
 # The return value printed is "true" because the object does include "Hello".
 "Hello World".include?("Hello")
 
 # The end_with? method is called on the string object "Hello World".
-# The end_with? method is asking the console if this object ends with the argument passed in.
+# One argument passed; the end_with? method is asking the console if this object ends with "Hello"."
 # The return value printed is "false" because the object does not end with "Hello".
 "Hello World".end_with?("Hello")
 
 # The end_with? method is called on the string object "Hello World".
-# The end_with? method is asking the console if this object ends with "rld".
+# One argument passed; the end_with? method is asking the console if this object ends with "rld".
 # The return value printed is "true" because the object does end with "rld".
 "Hello World".end_with?("rld")
 
